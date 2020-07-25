@@ -1,0 +1,30 @@
+{
+  "files": [
+    "README.md"
+  ],
+  "imageSize": 100,
+  "commit": false,
+  "contributors": [
+    {
+      "login": "quantumlytangled",
+      "name": "Nejc Drobnic",
+      "avatar_url": "https://avatars1.githubusercontent.com/u/7919610?v=4",
+      "profile": "https://quantumlytangled.com",
+      "contributions": [
+        "design",
+        "infra",
+        "code",
+        "projectManagement",
+        "test",
+        "maintenance",
+        "doc"
+      ]
+    }
+  ],
+  "contributorsPerLine": 7,
+  "projectName": "Firebird",
+  "projectOwner": "QuantumlyTangled",
+  "repoType": "github",
+  "repoHost": "https://github.com",
+  "skipCi": true
+}
