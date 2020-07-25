@@ -1,0 +1,8 @@
+{
+	"extends": "@skyra/eslint-config",
+	"compilerOptions": {
+		"target": "ESNext",
+		"useDefineForClassFields": true,
+		"resolveJsonModule": true
+	}
+}
