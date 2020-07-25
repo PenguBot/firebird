@@ -171,3 +171,4 @@
 - name: 'Type: Security'
   description: Pull requests that address a security vulnerability
   color: ee0701
+
