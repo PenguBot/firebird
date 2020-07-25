@@ -616,11 +616,6 @@
     "@types/yargs" "^15.0.0"
     chalk "^4.0.0"
 
-"@pengubot/lint@^1.1.0":
-  version "1.1.0"
-  resolved "https://registry.yarnpkg.com/@pengubot/lint/-/lint-1.1.0.tgz#068b117c0460cec5b9dc02e731f0bdb8ef6bc0ad"
-  integrity sha512-5SLr5z3yCxMCjWjhaqKzK3G2Wvrj72+LW92TEJ9+3ck05/zDsKCIN4fv0W6dn6LnQm++gJ2lzgF/OTxbVzD+aw==
-
 "@sinonjs/commons@^1.7.0":
   version "1.8.1"
   resolved "https://registry.yarnpkg.com/@sinonjs/commons/-/commons-1.8.1.tgz#e7df00f98a203324f6dc7cc606cad9d4a8ab2217"

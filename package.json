@@ -5,6 +5,11 @@
   "author": "Nejc Drobnic (https://quantumlytangled.com)",
   "license": "UNLICENSED",
   "private": true,
+  "scripts": {
+	"build": "tsc -b src",
+	"docker:build": "yarn run build",
+	"docker:start": "node index.js"
+  },
   "dependencies": {
     "@influxdata/influxdb-client": "^1.5.0",
     "@influxdata/influxdb-client-apis": "^1.5.0",
