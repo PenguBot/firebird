@@ -1,7 +1,7 @@
-import { main } from '../src';
+import { mainTest } from '../src';
 
 describe('Tests', () => {
 	test('should pass', () => {
-		expect(main()).toBe('this builds and pushes');
+		expect(mainTest()).toBe('this builds and pushes');
 	});
 });

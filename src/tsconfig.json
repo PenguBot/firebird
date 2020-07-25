@@ -5,6 +5,11 @@
 		"outDir": "../dist",
 		"rootDir": ".",
 		"baseUrl": ".",
+		"paths": {
+			"@utils/*": ["lib/util/*"],
+			"@lib/*": ["lib/*"],
+			"@root/*": ["*"]
+		},
 		"composite": true,
 		"declaration": true
 	},
