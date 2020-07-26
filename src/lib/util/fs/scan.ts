@@ -17,5 +17,4 @@ export async function deepScan(path: string, level: number, results: Cache<strin
 	}
 
 	return results;
-
 }
