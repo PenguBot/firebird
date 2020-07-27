@@ -2,8 +2,8 @@
 	"name": "firebird",
 	"version": "0.0.1",
 	"main": "dist/index.js",
-	"author": "Nejc Drobnic (https://quantumlytangled.com)",
-	"license": "UNLICENSED",
+	"author": "Nejc Drobnic <yo@quantumlytangled.com> (https://quantumlytangled.com)",
+	"license": "Apache-2.0",
 	"private": true,
 	"scripts": {
 		"build": "tsc -b src",
