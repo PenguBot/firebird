@@ -14,6 +14,7 @@
 		"@influxdata/influxdb-client": "^1.5.0",
 		"@influxdata/influxdb-client-apis": "^1.5.0",
 		"@klasa/cache": "^0.0.3",
+		"@klasa/utils": "^0.1.0",
 		"@sentry/node": "5.20.0",
 		"@spectacles/brokers": "^0.8.0",
 		"module-alias": "^2.2.2"
