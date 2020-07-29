@@ -1,3 +1,5 @@
+// Copyright (c) 2017-2019 dirigeants. All rights reserved. MIT license.
+
 /* eslint-disable @typescript-eslint/naming-convention */
 import { Cache } from '@klasa/cache';
 import { isClass } from '@klasa/utils';
@@ -58,7 +60,7 @@ export class Store<V extends Piece> extends Cache<string, V> {
 	 * @since 0.0.1
 	 */
 	public get userDirectory(): string {
-		return join(this.firebird.userBaseDirectory, this.name);
+		return join(this.firebird.baseDirectory, this.name);
 	}
 
 	/**

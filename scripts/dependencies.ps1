@@ -23,13 +23,11 @@ Function Step-Main {
 			lockfile {
 				switch ($Manager) {
 					yarn {
-						Remove-Item -Force -ErrorAction Ignore package-lock.json
 						Remove-Item -Force -ErrorAction Ignore yarn.lock
 						yarn install
 					}
 					npm {
 						Remove-Item -Force -ErrorAction Ignore package-lock.json
-						Remove-Item -Force -ErrorAction Ignore yarn.lock
 						npm install
 					}
 				}

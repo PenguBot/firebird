@@ -1,3 +1,5 @@
+// Copyright (c) 2017-2019 dirigeants. All rights reserved. MIT license.
+
 /* eslint-disable @typescript-eslint/naming-convention */
 import { mergeDefault } from '@klasa/utils';
 import { Firebird } from '@lib/Firebird';
