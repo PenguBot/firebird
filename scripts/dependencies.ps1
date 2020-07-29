@@ -10,32 +10,26 @@ Function Step-Main {
                 Remove-Item -Recurse -Force -ErrorAction Ignore dist
 				Remove-Item -Recurse -Force -ErrorAction Ignore node_modules
 				switch ($Manager) {
-					yarn {
-						Remove-Item -Recurse -Force -ErrorAction Ignore $(yarn cache dir)
-					}
-					npm {
-						npm cache rm --force
-					}
+					yarn { Remove-Item -Recurse -Force -ErrorAction Ignore $(yarn cache dir) }
+					npm { npm cache rm --force }
 				}
 			}
 			install {
 				switch ($Manager) {
-					yarn {
-						yarn install
-					}
-					npm {
-						npm install
-					}
+					yarn { yarn install }
+					npm { npm install }
 				}
 			}
 			lockfile {
 				switch ($Manager) {
 					yarn {
+						Remove-Item -Force -ErrorAction Ignore package-lock.json
 						Remove-Item -Force -ErrorAction Ignore yarn.lock
 						yarn install
 					}
 					npm {
 						Remove-Item -Force -ErrorAction Ignore package-lock.json
+						Remove-Item -Force -ErrorAction Ignore yarn.lock
 						npm install
 					}
 				}
