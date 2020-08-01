@@ -19,26 +19,11 @@
         "maintenance",
         "doc"
       ]
-    },
-    {
-      "login": "AdityaTD",
-      "name": "Aditya N. Tripathi",
-      "avatar_url": "https://avatars0.githubusercontent.com/u/9266227?v=4",
-      "profile": "http://www.adityatd.me",
-      "contributions": [
-        "design",
-        "infra",
-        "code",
-        "projectManagement",
-        "test",
-        "maintenance",
-        "doc"
-      ]
     }
   ],
   "contributorsPerLine": 7,
-  "projectName": "firebird",
-  "projectOwner": "PenguBot",
+  "projectName": "Firebird",
+  "projectOwner": "QuantumlyTangled",
   "repoType": "github",
   "repoHost": "https://github.com",
   "skipCi": true
