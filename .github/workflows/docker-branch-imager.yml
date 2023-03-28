@@ -59,7 +59,7 @@ jobs:
           echo ::set-env name=GITHUB_BRANCH_NAME::$(echo ${{ github.ref }} | cut
           -c12- | sed -e 's/\/\|_/-/g')
       - name: Publish to Github Package Registry
-        uses: elgohr/Publish-Docker-Github-Action@master
+        uses: elgohr/Publish-Docker-Github-Action@v5
         with:
           name: pengubot/firebird/firebird
           username: 'Team PenguBot'
